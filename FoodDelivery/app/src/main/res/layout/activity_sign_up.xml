@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Activity.signUp"
+    android:background="@color/Back">
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="150dp"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginEnd="10dp"
+        android:layout_marginBottom="10dp"
+        android:src="@drawable/iclogin" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginEnd="20dp"
+        android:layout_marginBottom="20dp"
+        android:orientation="vertical">
+
+        <EditText
+            android:id="@+id/etxtname"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:background="@drawable/shape"
+            android:drawableLeft="@drawable/person"
+            android:hint=" Enter your name"
+            android:padding="10dp"
+            android:textSize="20sp" />
+
+        <EditText
+            android:id="@+id/etxtemail"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:background="@drawable/shape"
+            android:drawableLeft="@drawable/ic_baseline_email_24"
+            android:hint=" Enter yourEmail Address"
+            android:padding="10dp"
+            android:textSize="20sp" />
+
+        <EditText
+            android:id="@+id/etxtmobile"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:background="@drawable/shape"
+            android:drawableLeft="@drawable/ic_baseline_phone_android_24"
+            android:hint=" Enter your mobile "
+            android:padding="10dp"
+            android:textSize="20sp" />
+
+        <EditText
+            android:id="@+id/etxtAdd"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:background="@drawable/shape"
+            android:drawableLeft="@drawable/location"
+            android:hint=" Enter address"
+            android:padding="10dp"
+            android:textSize="20sp" />
+
+        <EditText
+            android:id="@+id/etxtPassword"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:background="@drawable/shape"
+            android:drawableLeft="@drawable/ic_baseline_lock_24"
+            android:hint=" Password"
+            android:inputType="textWebPassword"
+            android:padding="10dp"
+            android:textSize="20sp" />
+
+        <EditText
+            android:id="@+id/etxtCPassword"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:background="@drawable/shape"
+            android:drawableLeft="@drawable/ic_baseline_lock_24"
+            android:hint=" Confirm Password"
+            android:inputType="textWebPassword"
+            android:padding="10dp"
+            android:textSize="20sp" />
+
+
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/btnSubmit"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerInParent="true"
+        android:layout_centerVertical="true"
+        android:layout_gravity="center"
+        android:layout_marginTop="20dp"
+        android:layout_marginBottom="74dp"
+        android:background="@drawable/shape1"
+        android:backgroundTint="@color/cardview_shadow_end_color"
+        android:padding="10dp"
+        android:text="Submit"
+
+        android:textAllCaps="false"
+        android:textSize="15sp" />
+
+
+</RelativeLayout>

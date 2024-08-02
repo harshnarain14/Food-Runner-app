@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Activity.Activity.RegisterActivity"
+    android:background="@color/Back">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_margin="30dp"
+        >
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="F O O D  R U N N E R..."
+            android:textSize="30sp"
+            android:layout_margin="10dp"
+            android:textAlignment="center"
+            android:textStyle="bold"
+            android:textColor="@color/white"
+            android:padding="10dp"/>
+        <EditText
+            android:id="@+id/edtename"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:background="@drawable/shape"
+            android:drawableLeft="@drawable/ic_baseline_phone_android_24"
+            android:hint=" Enter Your Mobile"
+            android:padding="10dp"
+            android:textSize="20sp" />
+        <EditText
+            android:id="@+id/edtEmail"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:background="@drawable/shape"
+            android:drawableLeft="@drawable/ic_baseline_email_24"
+            android:hint=" Enter your email"
+            android:padding="10dp"
+            android:textSize="20sp" />
+        <Button
+            android:id="@+id/btnforgotsubmit"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_centerInParent="true"
+            android:layout_centerVertical="true"
+            android:layout_gravity="center"
+            android:layout_marginTop="20dp"
+            android:layout_marginBottom="74dp"
+            android:background="@drawable/shape1"
+            android:backgroundTint="@color/cardview_shadow_end_color"
+            android:padding="10dp"
+            android:text="Submit"
+
+            android:textAllCaps="false"
+            android:textSize="15sp" />
+    </LinearLayout>
+
+</RelativeLayout>

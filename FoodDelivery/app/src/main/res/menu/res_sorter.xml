@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <group>
+        <item
+            android:title="Sort by?"
+            android:icon="@drawable/ic_baseline_sort_24"
+            android:id="@+id/sortBy"
+
+            />
+
+        <item
+            android:title="Cost(high to low)"
+            android:id="@+id/costHigh"
+            android:icon="@drawable/highlow"
+            android:checkable="true" />
+
+        <item
+            android:title="Cost(low to high)"
+            android:id="@+id/costLow"
+            android:icon="@drawable/lowhigh"
+            android:checkable="true"/>
+        <item
+            android:title="Rating"
+            android:id="@+id/rating"
+            android:icon="@drawable/ic_baseline_star_rate_24"
+
+            android:checkable="true"/>
+
+
+    </group>
+
+</menu>
